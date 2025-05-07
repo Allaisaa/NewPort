@@ -26,13 +26,12 @@
 
     <section class="main" id="main">
         <div class="content">
-            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Princess Alyssa S. Cubao</span></h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Alyssa Cubao</span></h2>
             <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
                 <h3>Programmer</h3>
                 <h3>IT</h3>
                 <h3>Latina</h3>
             </div>
-            <a href="#work" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">See My Work</a>
             <a href="https://1drv.ms/w/c/cebc89796d870b30/ESmLVkL6eR9NkABkDvx99WEBpXd5L7nACszQGqTZrUDLwg?e=Nx8v4n" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000"> Download CV</a>
             <div class="media-icons">
                 <a href="https://www.facebook.com/share/1AFbpoPN8D/" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
@@ -61,8 +60,7 @@
                     I'm also an avid traveler and have visited some incredible places like La Union, Baguio, Misamis Oriental, Bukidnon, Tarlac, and Pampanga. There's something special about exploring new places and experiencing different cultures.
                     
                     To support my goals, I join bands and sing at events like birthdays and fiestas. Performing at these events not only helps me earn money but also gives me a chance to showcase my talent. One of the highlights of my journey so far has been participating in the Battle of the Bands in Pampanga. It was an amazing experience, and I felt proud to share my music with others.</p>
-                <a href="#" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
-            </div>
+           </div>
         </div>
     </section>
 
@@ -212,21 +210,47 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="contact-form reveal">
-              <h3>Send Message</h3>
-              <div class="input-box">
-                <input type="text" name="" value="" placeholder="Name">
-              </div>
-              <div class="input-box">
-                <input type="text" name="" value="" placeholder="Email">
-              </div>
-              <div class="input-box">
-                <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
-              </div>
-              <div class="input-box">
-                <input type="submit" class="send-btn" name="" value="Send">
-              </div>
+                <section class="contact_form" id="contact">
+                    <div class="contact_container">
+                      <h2 class="title">Contact me</h2>
+                      <form
+                        class="form_container"
+                        id="contact-form"
+                        method="POST"
+                        action="https://formspree.io/f/mqkjgawz"
+                      >
+                        <fieldset class="form_inputs">
+                          <input
+                            class="form_input"
+                            name="name"
+                            id="name"
+                            type="text"
+                            placeholder="Your Name"
+                            maxlength="30"
+                            required
+                          />
+                          <input
+                            class="form_input"
+                            name="email"
+                            id="email"
+                            type="email"
+                            placeholder="email@example.com"
+                            required
+                          />
+                          <textarea
+                            class="form_text_area"
+                            name="message"
+                            id="message"
+                            placeholder="Write your message here"
+                            maxlength="500"
+                            required
+                          ></textarea>
+                          <small id="form-info"></small>
+                          <button type="submit" class="btn_submit">Get in Touch</button>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </section>
             </div>
           </div>
         </div>
