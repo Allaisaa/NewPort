@@ -687,9 +687,9 @@ section{
 
     .menu-btn{
         position: absolute;
-        background-image: url(menubutton.png);
+        background-image: url(menu.png.png);
         background-position: center;
-        background-size: 30px;
+        background-size: 20px;
         background-repeat: no-repeat;
         width: 40px;
         height: 40px;
@@ -701,12 +701,12 @@ section{
 
     .menu-btn.active{
         z-index: 999;
-        background-image: url(xbutton.png);
+        background-image: url(close.png.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 25px;
+        background-size: 20px;
         transition: 1s ease;
-        filter: invert(1);
+     
     }
 
     section{
