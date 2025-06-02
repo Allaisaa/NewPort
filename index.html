@@ -1,291 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alyssa</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-
-    <header>
-        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">Alyssa</a>
-        <div class="menu-btn"></div>
-        <div class="navigation">
-            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
-            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
-            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
-            <a href="#education" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Education</a>
-            <a href="#awards" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Awards</a>
-            <a href="#contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact</a>
+  <!-- Logo and Menu -->
+ <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfo<span>lio</span></a>
+            
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+           
         </div>
     </header>
 
-    <section class="main" id="main">
-        <div class="content">
-            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Alyssa Cubao</span></h2>
-            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
-                <h3>Programmer</h3>
-                <h3>IT</h3>
-                <h3>Latina</h3>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span style="color: var(--accent);">Alyssa Cubao</span></h1>
+                <h2>INFORMATION TECHNOLOGY</h2>
+                <p>I am an aspiring IT professional with experience in digital design, website development, and programming. Skilled in creating functional and user-friendly digital solutions, I am dedicated to refining my expertise and staying ahead in the ever-evolving tech landscape. My career goal is to contribute to innovative technology projects that enhance digital experiences and drive efficiency</p>
+                <a href="https://1drv.ms/w/c/cebc89796d870b30/ETCLHsnFo1ZOlnSUHj_xM2QBLm6o8EB_K5iRoPt8xPgtRQ?e=7wFCrV" class="btn"><i class="fas fa-download"></i> Download CV</a>
             </div>
-            <a href="https://1drv.ms/w/c/cebc89796d870b30/ESmLVkL6eR9NkABkDvx99WEBpXd5L7nACszQGqTZrUDLwg?e=Nx8v4n" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000"> Download CV</a>
-            <div class="media-icons">
-                <a href="https://www.facebook.com/share/1AFbpoPN8D/" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/allai_saaa?igsh=MW1yODVnZWNzemY2ZQ==" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/Allaisaa" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500"><i class="fab fa-github"></i></a>
+            <div class="hero-image">
+                <img src="main.png" alt="Profile Photo">
             </div>
         </div>
     </section>
 
-<!--  About Section -->
-
+    <!-- About Section -->
     <section class="about" id="about">
-        <div class="title reveal">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About me</h2>
-        </div>
-        <div class="content">
-            <div class="column col-left reveal">
-                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
-                    <img src="main.png" alt="">
-                </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
             </div>
-            <div class="column col-right reveal">
-                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Hey There!</h2>
-                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Hi there! My name is Princess Alyssa . I'm 19 years old and from the charming town of Camagsingalan. I have a deep passion for music, and my favorite hobby is practicing my songs. Singing brings me immense joy, and I love sharing that happiness with others through my performances. I'm quite ambitious and determined to secure a prosperous future, which is why one of my main goals is to earn a lot of money to support myself and my dreams.
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>Hi there! My name is Princess Alyssa . I'm 19 years old and from the charming town of Camagsingalan. I have a deep passion for music, and my favorite hobby is practicing my songs. Singing brings me immense joy, and I love sharing that happiness with others through my performances. I'm quite ambitious and determined to secure a prosperous future, which is why one of my main goals is to earn a lot of money to support myself and my dreams.
 
                     I'm also an avid traveler and have visited some incredible places like La Union, Baguio, Misamis Oriental, Bukidnon, Tarlac, and Pampanga. There's something special about exploring new places and experiencing different cultures.
                     
                     To support my goals, I join bands and sing at events like birthdays and fiestas. Performing at these events not only helps me earn money but also gives me a chance to showcase my talent. One of the highlights of my journey so far has been participating in the Battle of the Bands in Pampanga. It was an amazing experience, and I felt proud to share my music with others.</p>
            </div>
-        </div>
-    </section>
-
-<!-- Skill Section -->
-
-    <section class="skills" id="skills">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
-        </div>
-        <div class="content">
-            <div class="column col-right">
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
-                        <span>HTML</span>
-                        <span>75%</span>
+                
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <i class="fas fa-project-diagram"></i>
+                        <h4>3</h4>
+                        <p>Projects Completed</p>
                     </div>
-                    <div class="line html" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="140"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
-                        <span>CSS</span>
-                        <span>50%</span>
+                    <div class="stat-box">
+                        <i class="fas fa-medal"></i>
+                        <h4>4</h4>
+                        <p>Awards</p>
                     </div>
-                    <div class="line css" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="240"></div>
-                </div>
-                <div class="bar">
-                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-                        <span>C#</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="line php" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-
     <section class="education" id="education">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Education</h2>
-           
-        </div>
-        <div class="content">
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-                  
-                </div>
-                <div class="info">
-                    <h3>Tertiary</h3>
-                    <p>Information Technology </p>
-                    <p>2022-2024</p>
-                </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
             </div>
-            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-        
-                </div>
-                <div class="info">
-                    <h3>Secondary</h3>
-                    <p>Gingoog City Comprehensive National High School </p>
-                    <p>2022-2023</p>
-                </div>
-            </div>
-            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                <div class="service-icon">
-                   
-                </div>
-                <div class="info">
-                    <h3>Elementary</h3>
-                    <p>Caarosipan Elementary School</p>
-                    <p>2011-2016</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- Awards Section -->
-    <section class="awards" id="awards">
-        <div class="title">
-            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">Awards</h2>
-        </div>
-        <div class="content">
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                    <img src="Image/work1.jpg" alt="">
-                </div>
-            </div>
-            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                    <img src="Image/work2.jpg" alt="">
-                </div>
-            </div>
-            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card-img">
-                    <img src="Image/work3.jpg" alt="">
-                </div>
-            </div>
-            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-                <div class="card-img">
-                    <img src="Image/work4.jpg" alt="">
-                </div>
-            </div>
-            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <div class="card-img">
-                    <img src="Image/work5.jpg" alt="">
-                </div>
-            </div>
-            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
-                <div class="card-img">
-                    <img src="Image/work6.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="title reveal">
-          <h2 class="section-title">Contact Me</h2>
-        </div>
-        <div class="content">
-          <div class="row">
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="info">
-                <h3>Address</h3>
-                <span>Camagsingalan Sual, Pangasinan</span>
-              </div>
-            </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="info">
-                <h3>Phone</h3>
-                <span>+639516765098</span>
-              </div>
-            </div>
-            <div class="card reveal">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="info">
-                <h3>Email Address</h3>
-                <span>alyssaprincess658@gmail.com</span>
-              </div>
-            </div>
-          </div>
-                <section class="contact_form" id="contact">
-                    <div class="contact_container">
-                      <h2 class="title">Contact me</h2>
-                      <form action="https://api.web3forms.com/submit" method="POST">
-
-                        <fieldset class="form_inputs">
-                            <input type="hidden" name="access_key" value="466c6f50-248a-4906-8f42-ee94cf439719">
-
-                          <input
-                            class="form_input" name="name" id="name" type="text" placeholder="Your Name" maxlength="30"
-                            required
-                          />
-                          <input
-                            class="form_input" name="email" id="email" type="email" placeholder="alyssaprincess658@gmail.com"
-                            required
-                          />
-                          <textarea
-                            class="form_text_area"
-                            name="message"
-                            id="message"
-                            placeholder="Write your message here"
-                            maxlength="500"
-                            required
-                          ></textarea>
-                          <small id="form-info"></small>
-                          <button type="submit" class="btn_submit">Get in Touch</button>
-                        </fieldset>
-                      </form>
+            
+            <div class="education-container">
+                <div class="education-box">
+                    <span class="date">2023 - 2025</span>
+                    <h3>STI ALAMINOS</h3>
+                    <p>INFORMATION TECHNOLOGY</p>
                     </div>
-                  </section>
+                
+                <div class="education-box">
+                    <span class="date">2022  -  2023 </span>
+                    <h3>GINGOOG CITY COMPREHENSIVE NATIONAL HIGH SCHOOL</h3>
+                    <p>HUMANITIES AND SOCIAL SCIENCE</p>
+                    </div>
+                
+                <div class="education-box">
+                    <span class="date">2011 - 2016</span>
+                    <h3>CAAROSIPAN ELEMENTARY SCHOOL</h3>
+                    </div>
             </div>
-          </div>
         </div>
-      </section>
-  
-      <footer class="footer">
-        <span class="footer-title">Princess Alyssa</span>
-        <p>Copyright @2025 <a href="#">Online Portfolio</a>. All Rights Reserved.</p>
-      </footer>
+    </section>
 
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML & CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C#</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Android Studio</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Communication</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Problem Solving</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Teamwork</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Time Management</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({offset:0});
-    </script>
-    <script>
-        
-    window.addEventListener("scroll", function(){
-scrollBtn.classList.toggle("active", window.scrollY > 500);
-});
+    <!-- Awards Section -->
+    <section class="awards" id="awards">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certificates</h2>
+            </div>
+            
+            <div class="awards-container">
+                <div class="award-card">
+                    <div class="award-img">
+                        <img src="band.jpg" alt="Award 1">
+                    </div>
+                    <div class="award-content">
+                        <span class="date">2024</span>
+                        <h3>Battle of the Band</h3>
+                        </div>
+                </div>
+                
+                <div class="award-card">
+                    <div class="award-img">
+                        <img src="sing.jpg" alt="Award 2">
+                    </div>
+                    <div class="award-content">
+                        <span class="date">2023</span>
+                        <h3>Singing Contest</h3>
+                        </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-img">
+                        <img src="certmakeup.jpg" alt="Award 3">
+                    </div>
+                    <div class="award-content">
+                        <span class="date">2024</span>
+                        <h3>Makeup Workshop</h3>
+                        </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-img">
+                        <img src="certojt.jpg" alt="Award 4">
+                    </div>
+                    <div class="award-content">
+                        <span class="date">2025</span>
+                        <h3>OJT</h3>
+                        </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
 
-    const menuBtn = document.querySelector(".menu-btn");
-    const navigation = document.querySelector(".navigation");
-    const navigationItems = document.querySelector(".navigation a");
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-title">
+                <h2>Blogs</h2>
+            </div>
+            
+            <div class="blog-container">
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Blog 1">
+                    </div>
+                    <div class="blog-content">
+                        <span class="date">June 02, 2025</span>
+                        <h3>CSS Tricks Every IT Student Should Know</h3>
+                        <p>Use Flexbox & Grid for layouts, smooth animations for better UI, and custom cursors for unique interactions. Apply text stroke for emphasis and background-clip: text for creative typography.</p>
+                        </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="c:\Users\alyssa\OneDrive\Pictures\Screenshots\Screenshot 2025-06-02 233959.png" alt="Blog 2">
+                    </div>
+                    <div class="blog-content">
+                        <span class="date">June 02, 2025</span>
+                        <h3>Creating a Application</h3>
+                        <p>To create an application using Android Studio, start a new project, design the UI with XML, write logic in Java/Kotlin, connect to a database if needed, and test using the built-in emulator.</p>
+                        </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-img">
+                        <img src="Screenshot 2025-06-02 230753.png" alt="Blog 3">
+                    </div>
+                    <div class="blog-content">
+                        <span class="date">June 01, 2025</span>
+                        <h3>Tips of Creating Online Portfolio</h3>
+                        <p>A strong online portfolio should be clean, professional, and easy to navigate. Highlight your best work, include a short bio and contact info, and ensure it's mobile-friendly. Keep it updated to stay relevant! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    menuBtn.addEventListener("click", () => {
-        menuBtn.classList.toggle("active");
-        navigation.classList.toggle("active");
-    })
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Camagsingalan Sual,Pangasinan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alyssaprincess658@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>09516765098</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="form-group">
+                          <input type="hidden" name="access_key" value="466c6f50-248a-4906-8f42-ee94cf439719">
+                            <label for="name">Full Name</label>
+                             <input type="text" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                           <textarea name="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    // Navigation Effects
-    window.addEventListener("scroll", function(){
-        const header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
-    })
-
-    navigationItems.forEach((navigationItem) => {
-        navigationItem.addEventListener("click", () => {
-            menuBtn.classList.remove("active");
-            navigation.classList.remove("active")
-        })
-    })
-
-
-
-
-    </script>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo">Portfo<span>lio</span></div>
+            <p>© 2025 Princess Alyssa S. Cubao. All Rights Reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/Allaisaa"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/princess.alyssa.52459/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/allai_saaa/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+  <script src="script.js"></script>
 </body>
 </html>
